@@ -1,0 +1,27 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>si tuviera alas blog</title>
+	<link href="https://situvieraalas.cf/blog/atom.xml" rel="self"/>
+	<link href="https://situvieraalas.cf/blog"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>https://situvieraalas.cf/blog</id>
+	<author>
+		<name>si tuviera alas</name>
+		<email>si.tuviera.alas@yandex.com</email>
+	</author>
+
+	{% for post in site.posts %}
+		<entry>
+			<title>{{ post.title }}</title>
+			<link href="https://situvieraalas.cf{{ post.url }}"/>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>https://situvieraalas.cf{{ post.id }}</id>
+			<content type="html">{{ post.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>
