@@ -4,7 +4,7 @@ title: staticman test
 date: 2017-05-25
 ---
 
-<form method="POST" action="https://api.staticman.net/v2/entry/tpmgt/staticman/gh-pages/comments">
+<form method="POST" action="https://api.staticman.net/v2/entry/tpmgt/situvieraalas/gh-pages/comments">
   <!-- <input name="options[redirect]" type="hidden" value="https://situvieraalas.cf"> -->
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
