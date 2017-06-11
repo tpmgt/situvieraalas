@@ -9,7 +9,7 @@ comments:
   # not here is part of the request, an error will be thrown.
   allowedFields: ["name", "email", "url", "message"]
   
-  allowedOrigins: ["localhost", "situvieraalas.cf"]
+  allowedOrigins: ["situvieraalas.cf"]
 
   # (*) REQUIRED
   #
@@ -18,7 +18,7 @@ comments:
   branch: "gh-pages"
 
   # Text to use as the commit message or pull request title. Accepts placeholders.
-  commitMessage: "Add Staticman data ({fields.name})"
+  commitMessage: "New comment for ({fields.name})"
 
   # (*) REQUIRED
   #
@@ -37,12 +37,12 @@ comments:
     date:
       type: date
       options:
-        format: "timestamp-seconds"
+        format: "iso8601"
 
   # Whether entries need to be appproved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
   # Otherwise, entries will be published to the main branch automatically.
-  moderation: false
+  moderation: true
 
   # Name of the site. Used in notification emails.
   name: "situvieraalas.cf"
@@ -76,9 +76,9 @@ comments:
   # List of transformations to apply to any of the fields supplied. Keys are
   # the name of the field and values are possible transformation types.
   transforms:
-email: md5
+    email: md5
 
-reCaptcha:
-  enabled: true
-  siteKey: "6Lda0yQUAAAAADRhdZERZOAdCBbcdshzO7kdGBKJ"
-  secret: "XFbotxzieZhcnKzBo+2L1VtDcHJTnSTYPQ4/6yPo7fSVNqggwj78TEbx6dMZ5eTqLF1A34gbltteTVV9HkZW14/XsXQ2vbmcYl4YT08ES5Zk81CbvWiXUoWH6vJZ4z4BiOn8EgCQKaJtQQp3DZU/XGuF5QlDGxsQqVg9OIUzuRA="
+  reCaptcha:
+    enabled: true
+    siteKey: "6Lda0yQUAAAAADRhdZERZOAdCBbcdshzO7kdGBKJ"
+    secret: "XFbotxzieZhcnKzBo+2L1VtDcHJTnSTYPQ4/6yPo7fSVNqggwj78TEbx6dMZ5eTqLF1A34gbltteTVV9HkZW14/XsXQ2vbmcYl4YT08ES5Zk81CbvWiXUoWH6vJZ4z4BiOn8EgCQKaJtQQp3DZU/XGuF5QlDGxsQqVg9OIUzuRA="
