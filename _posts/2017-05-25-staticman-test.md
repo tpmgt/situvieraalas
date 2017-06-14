@@ -13,7 +13,7 @@ date: 2017-05-25
   <label><textarea name="fields[message]"></textarea>mensaje</label><br/>
   <input type="hidden" name="options[reCaptcha][siteKey]" value="6Lda0yQUAAAAADRhdZERZOAdCBbcdshzO7kdGBKJ">
   <input type="hidden" name="options[reCaptcha][secret]" value="XFbotxzieZhcnKzBo+2L1VtDcHJTnSTYPQ4/6yPo7fSVNqggwj78TEbx6dMZ5eTqLF1A34gbltteTVV9HkZW14/XsXQ2vbmcYl4YT08ES5Zk81CbvWiXUoWH6vJZ4z4BiOn8EgCQKaJtQQp3DZU/XGuF5QlDGxsQqVg9OIUzuRA=">
-  <div class="g-recaptcha" data-sitekey="YOUR-SITE-KEY"></div>
+  <div class="g-recaptcha" data-sitekey="6Lda0yQUAAAAADRhdZERZOAdCBbcdshzO7kdGBKJ"></div>
   
   <button type="submit">enviar</button>
 </form>
