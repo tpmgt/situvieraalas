@@ -42,7 +42,7 @@ comments:
   # Whether entries need to be appproved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
   # Otherwise, entries will be published to the main branch automatically.
-  moderation: true
+  moderation: false
 
   # Name of the site. Used in notification emails.
   name: "situvieraalas.cf"
@@ -50,19 +50,19 @@ comments:
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
   # with Mailgun, which you can get for free at http://mailgun.com.
-  #notifications:
+  notifications:
     # Enable notifications
-    #enabled: true
+    enabled: true
 
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    #apiKey: "dMdVx9U85DabUyP5THPN1s9BBPBvYeIN6XnWUtAaryZX+yITHlr6RVzPGM0RwHhsvquDOegS4z2he0BwXec9kjx02n6XF+l3Cf70w5lJjQ0ij+02W9jzmXKBgGKpk+OZBMTwOOCJjxwgcnSM6e+sHpJyE/m6WJTCufdHvmB50ks="
+    apiKey: "dMdVx9U85DabUyP5THPN1s9BBPBvYeIN6XnWUtAaryZX+yITHlr6RVzPGM0RwHhsvquDOegS4z2he0BwXec9kjx02n6XF+l3Cf70w5lJjQ0ij+02W9jzmXKBgGKpk+OZBMTwOOCJjxwgcnSM6e+sHpJyE/m6WJTCufdHvmB50ks="
 
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    #domain: "v2udA2Tp98zoi7hZAm/j0hOJEdiptf7wvQyPAbKXodT/Idrs7pNFs3Tfy2DWb0TuqJ9nxdjWKBX8VSO1i6OXxPVfdrrwtDxIkNtjEmL58Y/yuUEqxUF5KsaaUvvN7P+xvr/r3MMoepyyrHbEhSr5B8Fcp7WpuWJMwEkwFdgLrXw="
+    domain: "v2udA2Tp98zoi7hZAm/j0hOJEdiptf7wvQyPAbKXodT/Idrs7pNFs3Tfy2DWb0TuqJ9nxdjWKBX8VSO1i6OXxPVfdrrwtDxIkNtjEmL58Y/yuUEqxUF5KsaaUvvN7P+xvr/r3MMoepyyrHbEhSr5B8Fcp7WpuWJMwEkwFdgLrXw="
 
   # (*) REQUIRED
   #
