@@ -1,0 +1,23 @@
+<section class="container-fluid well">
+  <p> Me puedes contactar a <strong><a href="mailto:contact@situvieraalas.cf?subject=hola">contact@situvieraalas.cf</a></strong>, o si prefieres usa el formulario debajo.</p>
+  <form action="https://formspree.io/contact@situvieraalas.cf"
+    method="POST">
+    <div class="form-group">
+      <label for="name">Nombre:</label>
+      <input type="text" class="form-control" id="name" name="name" placeholder="tu nombre">
+    </div>
+    <div class="form-group">
+      <label for="email">Em@il:</label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="tu correo electrónico">
+    </div>
+    <div class="form-group">
+      <label for="message">Mensaje:</label>
+      <textarea name="message" class="form-control" id="message" placeholder="tu mensaje"></textarea>
+    </div>
+    <input type="hidden" name="_next" value="{{ site.url }}/gracias.html">
+    <input type="hidden" name="_subject" value="New submission!">
+    <input type="hidden" name="_language" value="es">
+    <input type="text" name="_gotcha">
+    <input type="submit" class="btn btn-primary" value="Enviar">
+  </form>
+</section>
