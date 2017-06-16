@@ -54,19 +54,19 @@ comments:
     # Enable notifications
     enabled: true
     
-    # fromAddress: contact@situvieraalas.cf
+    fromAddress: "contact@situvieraalas.cf"
 
     # (!) ENCRYPTED
     #
     # Mailgun API key
     # apiKey: "kLPyaG/+HAtcQZAUwFCg7goqVyBun1xFC+sQViEbCMSXBFp6HgpxpGbrqZIhFCiM/QiC6dGqurMvih+I03ClDLsQoVp9bV+8Qa11yC1xeUR+MgTxcjO/bnOR4MYP9Jy+aOIt/ee0Yz+PaQ2MNpYF7QzEbOdg3TQrlwX1uH5pL6k="
-    # apiKey: "ZGztsVeTyXeWWZZXOLRcYZdE/nsugHUIz/n/KmpF8CqSitKfPL7HRtVsePxAH50n/0SVpMsiYudpMC42XTNYtfiBbhjmnZ3/5PA9PAm2flEU4EDimY9gOUD9H7wxMnpnb0qIvBGbe/bqdDn2j+Al2GlsHq/SR2UxSdRjrsN6Ij4="
+    apiKey: "ZGztsVeTyXeWWZZXOLRcYZdE/nsugHUIz/n/KmpF8CqSitKfPL7HRtVsePxAH50n/0SVpMsiYudpMC42XTNYtfiBbhjmnZ3/5PA9PAm2flEU4EDimY9gOUD9H7wxMnpnb0qIvBGbe/bqdDn2j+Al2GlsHq/SR2UxSdRjrsN6Ij4="
 
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
     # domain: "pSn5XF9f3zEEqrP5Lzl+RG+siAKW92A+6ZWUj1BlU5pfwoW4NBbgVUVp1ssJHqSs58m26TgWi3AhnbrZ1aZNWbEVtqnfeW+nDVU/7TzZjS+/VEHw/OFruBYo7aTowTM0GbAL19p1/M41kzLB2s3flixhRa7ciiqiHXLItevsyoY="
-    # domain: "LmerBwlnW2Wjuly0Xdc28rzPF0PwO85Y/YaujpE6ePE3Q+fjNHWGktPqsBjG+e+ywTuJEuO0EXt3keJXLxQp/rbnizfDtUiZy2wFJmXnjLCn3A78cpA1KRdUZYzo5n1vBnQXwg+jdJ1LkMEx2y6SUtV5DN9iPj5lLHzIqqMrm/0="
+    domain: "LmerBwlnW2Wjuly0Xdc28rzPF0PwO85Y/YaujpE6ePE3Q+fjNHWGktPqsBjG+e+ywTuJEuO0EXt3keJXLxQp/rbnizfDtUiZy2wFJmXnjLCn3A78cpA1KRdUZYzo5n1vBnQXwg+jdJ1LkMEx2y6SUtV5DN9iPj5lLHzIqqMrm/0="
 
   # (*) REQUIRED
   #
